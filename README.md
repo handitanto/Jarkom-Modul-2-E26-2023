@@ -250,4 +250,4 @@ service bind9 restart
 ```
 - Simpan dan kemudian jalankan dengan command `bash /root/no5.sh`
 - Tes script tersebut pada client dengan command `host -t PTR 192.219.3.4`
-![image](
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no5.png)
