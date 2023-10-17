@@ -7,7 +7,7 @@
 |Handitanto Herprasetyo | 5025201077 |
 
 ## Topologi
-![image]()
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/topologi.png)
 
 ## Config 
 - **Pandudewanata**
@@ -102,12 +102,13 @@
 
 ## Soal 1
 > Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjuna merupakan Load Balancer yang terdiri dari beberapa Web Server yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Buatlah topologi dengan pembagian sebagai berikut. Folder topologi dapat diakses pada drive
-### Script
 
+Lakukan tes ping google pada client.
 **Nakula dan Sadewa**
 ```
 ping google.com -c 5
 ```
+![image]()
 
 ## Soal 2 
 > Buatlah website utama dengan akses ke arjuna.yyy.com dengan alias www.arjuna.yyy.com dengan yyy merupakan kode kelompok.
