@@ -94,10 +94,30 @@
   ```
 
   ### Setup Master, Slave, Client
+
+  Ketik command `nano /root/.bashrc` kemudian masukkan script berikut.
+  
 - **Prabukusuma**
   ```
   iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.219.0.0/16
   cat /etc/resolv.conf
+  ```
+- **Master & Slave**
+  ```
+  echo 'nameserver 192.168.122.1' > /etc/resolv.conf
+  apt-get update
+  apt-get install bind9 -y      
+  ```
+- **Client**
+  ```
+  echo -e '
+  nameserver 192.219.2.2 # IP Yudhistira
+  nameserver 192.173.2.3 # IP Werkudara
+  nameserver 192.168.122.1
+  ' > /etc/resolv.conf
+  apt-get update
+  apt-get install dnsutils -y
+  apt-get install lynx -y
   ```
 
 ## Soal 1
