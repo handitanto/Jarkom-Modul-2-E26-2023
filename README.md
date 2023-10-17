@@ -5,6 +5,7 @@
 | Nama | NRP |
 |---------------------------|------------|
 |Handitanto Herprasetyo | 5025201077 |
+|Nadiah Nuri Aisyah     | 5025211210 |
 
 ## Topologi
 ![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/topologi.png)
@@ -49,7 +50,7 @@
   	gateway 192.219.1.1
   ```
   
-  - **Yudhistira**
+- **Yudhistira**
   ```
   auto eth0
   iface eth0 inet static
