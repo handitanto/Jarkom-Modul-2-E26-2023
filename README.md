@@ -103,12 +103,12 @@
 ## Soal 1
 > Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjuna merupakan Load Balancer yang terdiri dari beberapa Web Server yaitu Prabakusuma, Abimanyu, dan Wisanggeni. Buatlah topologi dengan pembagian sebagai berikut. Folder topologi dapat diakses pada drive
 
-Lakukan tes ping google pada client.
-**Nakula dan Sadewa**
+Lakukan tes ping google pada client. `Nakula dan Sadewa`
 ```
 ping google.com -c 5
 ```
-![image]()
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no1.1.png)
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no1.2.png)
 
 ## Soal 2 
 > Buatlah website utama dengan akses ke arjuna.yyy.com dengan alias www.arjuna.yyy.com dengan yyy merupakan kode kelompok.
@@ -146,7 +146,7 @@ service bind9 restart
 ```
 Simpan dan kemudian jalankan dengan command `bash /root/no2.sh`
 Tes script tersebut pada client dengan command `ping arjuna.e26.com -c 5`
-
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no2.png)
 
 ## Soal 3
 > Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
@@ -186,6 +186,7 @@ service bind9 restart
 ```
 Simpan dan kemudian jalankan dengan command `bash /root/no3.sh`
 Tes script tersebut pada client dengan command `ping abimanyu.e26.com -c 5`
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no3.png)
 
 ## Soal 4
 > Kemudian, karena terdapat beberapa web yang harus di-deploy, buatlah subdomain parikesit.abimanyu.yyy.com yang diatur DNS-nya di Yudhistira dan mengarah ke Abimanyu.
@@ -214,6 +215,7 @@ service bind9 restart
 ```
 Simpan dan kemudian jalankan dengan command `bash /root/no4.sh`
 Tes script tersebut pada client dengan command `ping parikesit.abimanyu.e26.com -c 5`
+![image](https://github.com/handitanto/Jarkom-Modul-2-E26-2023/blob/main/img/no4.png)
 
 ## Soal 5
 > Buat juga reverse domain untuk domain utama.
